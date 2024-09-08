@@ -1,0 +1,586 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Readex Pro", sans-serif;
+}
+html{
+  scroll-behavior:smooth ;
+}
+body{
+  transition: 0.7s;
+}
+
+#texts{
+  margin-top: -6px;
+
+}
+
+
+
+#texts{
+  animation-name: textMove;
+  animation-duration: 1.6s;
+}
+@keyframes textMove{
+  from{
+  translate: 50px -2px;
+  }
+  to{
+    translate: -30px -2px;
+
+  }
+
+
+}
+#texts{
+  animation-name: textMove;
+  animation-duration: 1.6s;
+  translate: -30px -2px;
+
+
+}
+
+
+
+
+
+.container-images img{
+  position: relative;
+}
+#bg{
+  width: 42%;
+  height: 100%;
+  clip-path: ellipse(20%);
+  background: linear-gradient(rgb(46, 173, 101),rgb(17, 135, 64));
+  position: absolute;
+  top:0;
+  left: 0%;
+  rotate:3deg;
+  animation-name: move;
+  animation-duration: 2s;
+  z-index: -2;
+}
+#laptop{
+  animation-name: move;
+  animation-duration: 2s;
+}
+@keyframes move{
+  from{
+    opacity: 0;
+  translate: -170px -2px;
+  }
+  to{
+    opacity: 1;
+    translate: 0px -28px;
+    rotate: -3deg;
+    
+  }
+}
+#bg,#laptop{    
+  opacity: 1;
+
+  translate: 0px -28px;
+  rotate: -3deg;
+}
+#laptop{
+  z-index: 3;
+}
+.hide{
+  display: none;
+}
+
+#moon,#sun{
+  z-index: 999;
+
+}
+/*iPhone SE*/
+@media (min-width:375px) and (max-width:667px){
+  @keyframes textMove{
+    from{
+    translate: 50px -2px;
+    }
+    to{
+      translate: -5px -2px;
+  
+    }
+  }
+  #texts{
+    margin-top: 30px;
+    translate: -5px -2px;
+
+  }
+  #bg{
+
+
+    
+    width: 70%;
+    height: 47%;
+    position: absolute;
+    top: 100%;
+  }
+
+
+  #laptop{
+    animation-name: move;
+    animation-duration: 2s;
+  }
+  @keyframes move{
+    from{
+      opacity: 0;
+    translate: 0px 2px;
+    }
+    to{
+      opacity: 1;
+      translate: 0px -10px;
+      rotate: -3deg;
+      
+    }
+  }
+  #bg,#laptop{    
+    opacity: 1;
+  
+    translate: 0px -10px;
+    rotate: -3deg;
+  }
+}
+/*iPhone XR*/
+@media (min-width:414px) and (max-width:896px){
+  @keyframes textMove{
+    from{
+    translate: 50px -2px;
+    }
+    to{
+      translate: 2px -2px;
+  
+    }
+  }
+  #texts{
+    margin-top: 30px;
+    translate: 2px -2px;
+
+  }
+  #bg{
+
+
+    
+    width: 70%;
+    height: 44%;
+    position: absolute;
+    top: 69%;
+  }
+
+
+  #laptop{
+    animation-name: move;
+    animation-duration: 2s;
+  }
+  @keyframes move{
+    from{
+      opacity: 0;
+    translate: 0px 2px;
+    }
+    to{
+      opacity: 1;
+      translate: 0px -28px;
+      rotate: -3deg;
+      
+    }
+  }
+  #bg,#laptop{    
+    opacity: 1;
+  
+    translate: 0px -28px;
+    rotate: -3deg;
+  }
+}
+/*iPhone 12 Pro*/
+@media (min-width:390px) and (max-width:844px){
+  @keyframes textMove{
+    from{
+    translate: 50px -2px;
+    }
+    to{
+      translate: 2px -2px;
+  
+    }
+  }
+  #texts{
+    margin-top: 30px;
+    translate: 2px -2px;
+
+  }
+  #bg{
+
+
+    
+    width: 70%;
+    height: 44%;
+    position: absolute;
+    top: 69%;
+  }
+
+
+  #laptop{
+    animation-name: move;
+    animation-duration: 2s;
+  }
+  @keyframes move{
+    from{
+      opacity: 0;
+    translate: 0px 2px;
+    }
+    to{
+      opacity: 1;
+      translate: 0px -28px;
+      rotate: -3deg;
+      
+    }
+  }
+  #bg,#laptop{    
+    opacity: 1;
+  
+    translate: 0px -28px;
+    rotate: -3deg;
+  }
+}
+/*Samsung Galaxy S8*/
+@media (min-width:360px) and (max-width:740px){
+  @keyframes textMove{
+    from{
+    translate: 50px -2px;
+    }
+    to{
+      translate: 2px -2px;
+  
+    }
+  }
+  #texts{
+    margin-top: 30px;
+    translate: 2px -2px;
+
+  }
+  #bg{
+
+
+    
+    width: 70%;
+    height: 44%;
+    position: absolute;
+    top: 89%;
+  }
+
+
+  #laptop{
+    animation-name: move;
+    animation-duration: 2s;
+  }
+  @keyframes move{
+    from{
+      opacity: 0;
+    translate: 0px 2px;
+    }
+    to{
+      opacity: 1;
+      translate: 0px -28px;
+      rotate: -3deg;
+      
+    }
+  }
+  #bg,#laptop{    
+    opacity: 1;
+  
+    translate: 0px -28px;
+    rotate: -3deg;
+  }
+}
+/*ipad mini*/
+
+@media (min-width:768px) and (max-width:1024px){
+  @keyframes textMove{
+    from{
+    translate: 50px -2px;
+    }
+    to{
+      translate: 2px -2px;
+  
+    }
+  }
+  #texts{
+    margin-top: 30px;
+    translate: 2px -2px;
+
+  }
+  #bg{
+
+
+    
+    width: 60%;
+    height: 49%;
+    position: absolute;
+    top: 100%;
+  }
+
+
+  #laptop{
+    animation-name: move;
+    animation-duration: 2s;
+  }
+  @keyframes move{
+    from{
+      opacity: 0;
+    translate: 0px 2px;
+    }
+    to{
+      opacity: 1;
+      translate: 0px -28px;
+      rotate: -3deg;
+      
+    }
+  }
+  #bg,#laptop{    
+    opacity: 1;
+  
+    translate: 0px -28px;
+    rotate: -3deg;
+  }
+}
+/*galaxy z fold 5*/
+
+@media (min-width:344px) and (max-width:882px){
+  @keyframes textMove{
+    from{
+    translate: 50px -2px;
+    }
+    to{
+      translate: 2px -2px;
+  
+    }
+  }
+  #texts{
+    margin-top: 30px;
+    translate: 2px -2px;
+
+  }
+  #bg{
+
+
+    
+    width: 60%;
+    height: 49%;
+    position: absolute;
+    top: 66%;
+  }
+
+
+  #laptop{
+    animation-name: move;
+    animation-duration: 2s;
+  
+  }
+  @keyframes move{
+    from{
+      opacity: 0;
+    translate: 0px 2px;
+    }
+    to{
+      opacity: 1;
+      translate: 0px -48px;
+      rotate: -3deg;
+      
+    }
+  }
+  #bg,#laptop{    
+    opacity: 1;
+  
+    translate: 0px -48px;
+    rotate: -3deg;
+  }
+}
+@media (min-width:1024px) and (max-width:1366px){
+  @keyframes textMove{
+    from{
+    translate: 50px -2px;
+    }
+    to{
+      translate: 2px -2px;
+  
+    }
+  }
+  #texts{
+    margin-top: 30px;
+    translate: 2px -2px;
+
+  }
+  #bg{
+
+
+    
+    width: 56%;
+    height: 49%;
+    position: absolute;
+    top: 26%;
+  }
+
+
+  #laptop{
+    animation-name: move;
+    animation-duration: 2s;
+  
+  }
+  @keyframes move{
+    from{
+      opacity: 0;
+    translate: 0px 2px;
+    }
+    to{
+      opacity: 1;
+      translate: 0px -48px;
+      rotate: -3deg;
+      
+    }
+  }
+  #bg,#laptop{    
+    opacity: 1;
+  
+    translate: 0px -48px;
+    rotate: -3deg;
+  }
+}
+@media (min-width:820px) and (max-width:1180px){
+  @keyframes textMove{
+    from{
+    translate: 50px -2px;
+    }
+    to{
+      translate: 2px -2px;
+  
+    }
+  }
+  #texts{
+    margin-top: 30px;
+    translate: 2px -2px;
+
+  }
+  #bg{
+
+
+    
+    width: 60%;
+    height: 49%;
+    position: absolute;
+    top: 26%;
+  }
+
+
+  #laptop{
+    animation-name: move;
+    animation-duration: 2s;
+  
+  }
+  @keyframes move{
+    from{
+      opacity: 0;
+    translate: 0px 2px;
+    }
+    to{
+      opacity: 1;
+      translate: 0px -48px;
+      rotate: -3deg;
+      
+    }
+  }
+  #bg,#laptop{    
+    opacity: 1;
+  
+    translate: 0px -48px;
+    rotate: -3deg;
+  }
+}
+
+#btn1{
+  z-index: 10;
+}
+#Top{
+  color: rgb(30, 151, 76);
+}
+#items,#product,#card,#slidercard{
+  animation-name:scroll ;
+  animation-duration: 2.9s;
+  animation-timeline: view();
+  animation-range: entry 0;
+}
+@keyframes scroll{
+  0%{
+    opacity: 0;
+    scale: 0.5;
+translate: -100px 0;
+  }
+  100%{
+    translate: 0px 0;
+    opacity: 1;
+    scale: 1;
+  }
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* .btn-primary {
+      @apply py-1.5 px-3 text-center bg-blue-700 rounded-md text-white;
+  } */
+}
+
+
+
+#cards{
+  display: grid;
+grid-template-columns: 1fr 1fr 1fr ;
+
+}
+
+ #card{
+  transition: 0.5s;
+}
+#card:hover{
+  rotate: 1deg;
+  border: 2px rgb(6, 102, 57) solid;
+  scale: 1.02;
+
+}
+#item:hover{
+  border: 2px rgb(81, 239, 165) solid;
+
+}
+a,button{
+  cursor: default;
+}
+
+#slidercard{
+  transition: 0.6s;
+}
+#slidercard:hover{
+  scale: 1.07;
+}
+
+#UniqueProduct{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@media (max-width:768px){
+  #cards{
+    display: grid;
+  grid-template-columns: 1fr;
+  
+  }
+}
+@media (max-width:1024px) and (min-width:768px){
+  #cards{
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+  }
+}
